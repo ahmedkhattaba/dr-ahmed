@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>د. أحمد بهريز | باطنة وقلب وسكر</title>
+<meta name="description" content="د. أحمد بهريز - استشاري الباطنة والقلب والسكر">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <a class="logo" href="#top">د. أحمد بهريز</a>
+  <nav>
+    <a href="#about" data-i18n="nav_about">نبذة</a>
+    <a href="#services" data-i18n="nav_services">التخصصات</a>
+    <a href="#journey" data-i18n="nav_journey">المسيرة</a>
+    <a href="#clinic" data-i18n="nav_clinic">العيادة</a>
+  </nav>
+  <div class="tools">
+    <button id="lang" aria-label="Language">EN</button>
+    <button id="theme" aria-label="Theme">◐</button>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-text">
+    <p class="role" data-i18n="role">استشاري الباطنة والقلب والسكر</p>
+    <h1 data-i18n="name">د. أحمد بهريز</h1>
+    <p class="lead" data-i18n="lead">رعاية طبية دقيقة بخطة علاج واضحة لقلبك وسكرك وصحتك العامة.</p>
+    <div class="cta">
+      <a class="btn primary" href="#clinic" data-i18n="book">احجز موعدك</a>
+      <a class="btn" href="#about" data-i18n="more">تعرّف عليّ</a>
+    </div>
+  </div>
+  <svg class="ecg" viewBox="0 0 600 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 60 H150 L170 60 L185 20 L205 100 L222 8 L240 60 H330 L345 52 L360 60 H600"/>
+  </svg>
+</section>
+
+<section id="about" class="sec narrow">
+  <h2 data-i18n="about_t">نبذة عن الدكتور</h2>
+  <p data-i18n="about_p">أعمل على تشخيص وعلاج أمراض الباطنة، مع تركيز خاص على أمراض القلب والسكري. أشرح لكل مريض حالته بوضوح، وأضع معه خطة متابعة يستطيع الالتزام بها.</p>
+</section>
+
+<section id="services" class="sec">
+  <h2 data-i18n="srv_t">التخصصات</h2>
+  <ul class="services">
+    <li><span class="ic">🩺</span><div><h3 data-i18n="s1_t">الباطنة العامة</h3><p data-i18n="s1_p">فحص شامل وتشخيص الأمراض المزمنة والحادة ومتابعتها.</p></div></li>
+    <li><span class="ic">❤️</span><div><h3 data-i18n="s2_t">أمراض القلب</h3><p data-i18n="s2_p">ضغط الدم، آلام الصدر، خفقان القلب، وتقييم الجهد والرسم.</p></div></li>
+    <li><span class="ic">🩸</span><div><h3 data-i18n="s3_t">السكر</h3><p data-i18n="s3_p">ضبط مستوى السكر، تعديل العلاج، والوقاية من المضاعفات.</p></div></li>
+  </ul>
+</section>
+
+<section id="journey" class="sec narrow">
+  <h2 data-i18n="tl_t">المسيرة العلمية والمهنية</h2>
+  <ol class="timeline">
+    <li><time>2010</time><h3 data-i18n="t1_t">بكالوريوس الطب والجراحة</h3><p data-i18n="t1_p">كلية الطب - اكتب اسم الجامعة هنا.</p></li>
+    <li><time>2014</time><h3 data-i18n="t2_t">الماجستير في الباطنة العامة</h3><p data-i18n="t2_p">اكتب اسم الجامعة هنا.</p></li>
+    <li><time>2018</time><h3 data-i18n="t3_t">زمالة القلب والسكر</h3><p data-i18n="t3_p">تدريب متقدم في أمراض القلب والسكري.</p></li>
+    <li><time>2021</time><h3 data-i18n="t4_t">استشاري الباطنة</h3><p data-i18n="t4_p">العمل في العيادة والمستشفى حتى اليوم.</p></li>
+  </ol>
+</section>
+
+<section id="clinic" class="sec narrow">
+  <h2 data-i18n="cl_t">العيادة</h2>
+  <dl class="info">
+    <div><dt data-i18n="addr">العنوان</dt><dd data-i18n="addr_v">اكتب عنوان العيادة هنا</dd></div>
+    <div><dt data-i18n="hrs">المواعيد</dt><dd data-i18n="hrs_v">السبت إلى الخميس، 5 م - 10 م</dd></div>
+    <div><dt data-i18n="tel">الهاتف</dt><dd dir="ltr">+20 100 000 0000</dd></div>
+  </dl>
+  <a class="btn primary" href="https://wa.me/201000000000" target="_blank" rel="noopener" data-i18n="wa">احجز عبر واتساب</a>
+</section>
+</main>
+
+<footer>© <span id="yr"></span> <span data-i18n="name">د. أحمد بهريز</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
